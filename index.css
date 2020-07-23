@@ -1,4 +1,12 @@
 
+#content-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 5rem;
+  row-gap: 5rem;
+}
+
 #header-container {
   display: grid;
   grid-template-columns: repeat(16, 1fr);
